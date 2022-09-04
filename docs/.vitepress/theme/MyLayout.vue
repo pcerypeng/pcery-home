@@ -10,7 +10,7 @@
   
   <template>
     <Layout>
-      <template #doc-after>
+      <template #aside-top>
         <span class="page-info">✍️{{ frontmatter.author }}</span>
         <span class="page-info">🕐{{ frontmatter.date }}</span>
         <span>

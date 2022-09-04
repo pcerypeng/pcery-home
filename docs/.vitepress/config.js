@@ -33,6 +33,7 @@ module.exports = {
           text: 'Study',
           items: [
             { text: '敬请期待', link: '/study/' },
+            { text: 'vitepress部署', link: '/study/vitepress/' },
           ]
         }
       ],
