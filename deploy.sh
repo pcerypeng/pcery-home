@@ -23,6 +23,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git subtree push --prefix dist origin gh-pages
+git subtree push --prefix origin gh-pages
 
 cd -
