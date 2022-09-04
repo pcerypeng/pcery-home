@@ -19,7 +19,7 @@ cd docs/.vitepress/dist
 git config --global user.email "1532217526@qq.com"
 git config --global user.name "pcery"
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
