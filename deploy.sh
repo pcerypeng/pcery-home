@@ -14,7 +14,7 @@ set -e
 yarn build
 
 # 进入生成的文件夹
-cd docs/.vitepress
+cd docs/.vitepress/dist
 
 git config --global user.email "1532217526@qq.com"
 git config --global user.name "pcery"
@@ -23,6 +23,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git subtree push --prefix dist origin gh-pages
+git push -f git@github.com:pcerypeng/pcery-home.git master:gh-pages
 
 cd -
