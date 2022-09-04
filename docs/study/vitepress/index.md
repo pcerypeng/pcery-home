@@ -68,7 +68,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: npm
+          cache: yarn
       - run: yarn install --frozen-lockfile
 
       - name: Build
@@ -85,4 +85,4 @@ jobs:
 
 ### 比较正式的解决办法
 
-其实，github的Action构建，会依据**publish_dir**自动生成gh-pages,**自动生成的前提就是：你构建后的dist文件在推送的时候应该存在，换言之，在第一次推送到主分支的时候应该在本地打包构建一次**。
+其实，github的Action构建，会依据**publish_dir**自动生成gh-pages,**但是刚开始的时候他并未生成新的分支，后面莫名其妙生成了，原因还未找到**。
