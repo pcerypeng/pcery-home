@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: About me
-      link: /guide/what-is-vitepress
+      link: /about/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/pcerypeng/pcery-home
 
 features:
   - icon: 📖
