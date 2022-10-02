@@ -5,7 +5,7 @@ import './app.css'
 
 export default {
   ...DefaultTheme,
-  Layout: MyLayout,
+  // Layout: MyLayout,
     
   enhanceApp({ app, router, siteData }) {
     // app is the Vue 3 app instance from `createApp()`.

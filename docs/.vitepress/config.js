@@ -35,6 +35,10 @@ module.exports = {
             { text: '敬请期待', link: '/study/' },
             { text: 'vitepress部署', link: '/study/vitepress/' },
             { text: '学习资源 备忘录', link: '/study/records/' },
+            { text: 'TS', link: '/study/TS/',
+            items: [
+              { text: 'infer', link: '/study/TS/infer' },
+            ] },
           ]
         }
       ],
