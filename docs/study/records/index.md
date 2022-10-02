@@ -16,7 +16,7 @@ tags:
 
 [vite-plugin-env-command](https://www.npmjs.com/package/vite-plugin-env-command): 在Vite.js项目中获取package.json中scripts里指令上的参数(build:test->test)添加到环境变量中
 
-[vant](https://github.com/zeorcpt/vue3-vant-mobile): 一个轻量、可靠的移动端组件库，于 2017 年开源。目前 Vant 官方提供了 Vue 2 版本、Vue 3 版本和微信小程序版本，并由社区团队维护 React 版本和支付宝小程序版本。
+[vant](https://github.com/zeorcpt/vue3-vant-mobile): 一个轻量、可靠的移动端组件库
 
 [vconsole](https://github.com/Tencent/vConsole): 移动端调试神器
 
